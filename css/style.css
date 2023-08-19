@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background: url(bg.png);
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+#playground{
+    background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
+    height: 90vmin;
+    width: 90vmin;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    border: 5px solid rgb(163, 159, 159);
+}
+.head{
+    background-color: rgb(223, 223, 161);
+    border: 1px solid rgb(202, 136, 136);
+    border-radius: 4px;
+}
+.snake{
+    background-color: rgb(176, 106, 106);
+    border-radius: 15px;
+}
+.food{
+    background-color: rgb(90, 85, 85);
+    border-radius: 8px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+}
